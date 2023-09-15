@@ -1,10 +1,11 @@
+# Example of Simple Linear using Bengaluru_House_Data
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 from sklearn.linear_model import Ridge
 
-df = pd.read_csv("../data/Bengaluru_House_Data.csv")
+df = pd.read_csv("Bengaluru_House_Data.csv")
 df = df.dropna()
 x = df[['bath', 'balcony']]
 y = df[['price']]
