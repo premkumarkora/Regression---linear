@@ -1,0 +1,1 @@
+All the emaples in this repo is for simple lenear equation.
